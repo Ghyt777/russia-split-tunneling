@@ -1,0 +1,65 @@
+{
+  "route": {
+    "rules": [
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          "youtube.com",
+          "youtu.be",
+          "youtube-nocookie.com",
+          "ytimg.com",
+          "googlevideo.com",
+          "ggpht.com",
+          "youtubei.googleapis.com",
+          "instagram.com",
+          "cdninstagram.com",
+          "facebook.com",
+          "facebook.net",
+          "fb.com",
+          "fbcdn.net",
+          "fbsbx.com",
+          "x.com",
+          "twitter.com",
+          "twimg.com",
+          "t.co",
+          "discord.com",
+          "discord.gg",
+          "discordapp.com",
+          "discordapp.net",
+          "discord.media",
+          "whatsapp.com",
+          "whatsapp.net",
+          "wa.me",
+          "viber.com",
+          "signal.org",
+          "whispersystems.org",
+          "linkedin.com",
+          "licdn.com",
+          "telegram.org",
+          "t.me",
+          "telegram.me"
+        ],
+        "outbound": "proxy"
+      },
+      {
+        "domain_suffix": [
+          ".ru",
+          ".su",
+          ".xn--p1ai",
+          "vk.com",
+          "vk.me",
+          "userapi.com",
+          "yandex.net",
+          "yandex.com",
+          "yastatic.net",
+          "sberbank.com"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "final": "proxy"
+  }
+}
